@@ -2,4 +2,5 @@
 name = "python"
 roots = ["pyproject.toml","pyrightconfig.json"]
 language-server = { command = "pyright-langserver", args = ["--stdio"] }
+formatter = { command = "autopep8", args = ["-"]   }
 config = {}
